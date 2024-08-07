@@ -11,7 +11,7 @@ Data Types
 # x = None
 # print(type(x))
 # x = frozenset({"Hello", "World"})
-# print(type(x))
+# print(x)
 
 # std = {
 #     "name": "Ali",
