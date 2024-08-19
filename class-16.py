@@ -49,13 +49,13 @@
 # else:
 #     print("Thanks")
 
-try:
-    f = open("sample.txt")
-    try:
-        f.write("Hello world")
-    except:
-        print("File not open")
-    finally:
-        f.close()
-except:
-    print("File does not exist")  
+# try:
+#     f = open("sample.txt")
+#     try:
+#         f.write("Hello world")
+#     except:
+#         print("File not open")
+#     finally:
+#         f.close()
+# except:
+#     print("File does not exist")  
