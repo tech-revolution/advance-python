@@ -14,7 +14,7 @@
 #     course = "Python"
 
 #     def print_details(self):
-#         print(f"Hello my name is {Student.fname}")
+#         print(f"Hello my name is {self.fname}")
 
 # std1 = Student()
 # std2 = Student()

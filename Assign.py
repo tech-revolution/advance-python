@@ -37,16 +37,16 @@ n2 = nth
 
 [[0,0,0,0], [0,1,2,3]]
 '''
-row_in = int(input("Enter Row: "))
-col_in = int(input("Enter Column: "))
+# row_in = int(input("Enter Row: "))
+# col_in = int(input("Enter Column: "))
 
-list1 = [[0 for col in range(col_in)] for row in range(row_in)]
+# list1 = [[0 for col in range(col_in)] for row in range(row_in)]
 
-for row in range(row_in):
-    for col in range(col_in):
-        list1[row][col] = row * col
+# for row in range(row_in):
+#     for col in range(col_in):
+#         list1[row][col] = row * col
 
-print(list1)
+# print(list1)
 """
 Student management system
 1. Press 1 for create a new student
@@ -63,3 +63,18 @@ Thank you for using our system
 
 
 """
+
+# Camera Assignment
+
+# import cv2
+# import numpy as np
+# ip = "http://192.168.1.29:8080"
+# ac = cv2.VideoCapture(ip)
+# while(True):
+#     camera, frame = ac.read()
+#     if frame is not None:
+#         cv2.imshow("Frame", frame)
+#     q = cv2.waitKey(1)
+#     if q==ord("q"):
+#         break
+# cv2.destroyAllWindows()
