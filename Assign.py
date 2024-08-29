@@ -78,3 +78,77 @@ Thank you for using our system
 #     if q==ord("q"):
 #         break
 # cv2.destroyAllWindows()
+
+
+
+
+
+
+
+
+# def convert_roman(r):
+#     r=r.upper()
+#     roman_dic={"I": 1,"V": 5,"X": 10,"L": 50,"C": 100,"D": 500,"M": 1000}
+#     decimal=0
+#     length_of_roman=len(r)
+#     for i in range(length_of_roman):
+#         if r[i] not in roman_dic:
+#              print("wrong numerals.....")
+#         current=roman_dic[r[i]]
+
+#         if i<length_of_roman-1 and roman_dic[r[i]]< roman_dic[r[i+1]]:
+#              decimal-=current
+#             # decimal-=roman_dic[roman[i+1]]-roman_dic[roman[i]]
+#         else:
+#                 decimal += current
+    
+#     return decimal
+
+# r=input("enter roman number :")
+# print(f"the decimal value is: {convert_roman(r)}")
+
+# q------2
+# import  random
+# def die_roll(n):
+#         random_number=random.randint(1,n)
+#         return random_number
+# n=int(input("Enter no of sides of a die you want "))
+# print("after rolling",die_roll(n))
+
+
+
+# import random
+
+# def dice_roll(dice,sides):
+#     roll = []
+
+#     for i in range(0,dice):
+#       face = random.randint(1,sides)
+#       roll.append(face)
+#     return roll  
+
+# dice = int(input("Dice: "))
+
+# if (dice <=0):
+#     print("Must have at least one dice")
+#     quit()
+
+
+# sides = int(input("Sides: "))
+# if (sides <=0):
+
+
+#     print("Must have one side: ")
+#     quit()
+
+# roll = dice_roll(dice, sides)
+
+# print(roll)  
+
+# def main():
+#     while True:
+#         input("Press 'Enter' to roll the dice or type 'quit' to exit:")
+#         if input().lower() == "quit":
+#             break  
+# if __name__ == "__main__":
+#         main()
